@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Microsoft.CSharp/1.0.0": {
+        "type": "package"
+      },
+      "Mango.Extensions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.CSharp": "(, )"
+        },
+        "compile": {
+          "bin/placeholder/Mango.Extensions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mango.Extensions.dll": {}
+        }
+      },
+      "Mango.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Mango.Extensions": "1.0.0",
+          "Microsoft.CSharp": "(, )"
+        },
+        "compile": {
+          "bin/placeholder/Mango.Utils.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mango.Utils.dll": {}
+        }
+      },
+      "Mango.WebServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Mango.Extensions": "1.0.0",
+          "Mango.Utils": "1.0.0",
+          "Microsoft.CSharp": "(, )"
+        },
+        "compile": {
+          "bin/placeholder/Mango.WebServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Mango.WebServer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CSharp/1.0.0": {
+      "sha512": "mSI7myFSA+U2D6ZupA8VRovFYgj8QRaRysT9VHBpUERFnR5qTsYXBvjqDHi6LTD2Ou4m2/ZovL4pqHQVyDHOyw==",
+      "type": "package",
+      "path": "microsoft.csharp/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Microsoft.CSharp.dll",
+        "Microsoft.CSharp.xml",
+        "NuGet.exe",
+        "microsoft.csharp.1.0.0.nupkg.sha512",
+        "microsoft.csharp.nuspec"
+      ]
+    },
+    "Mango.Extensions/1.0.0": {
+      "type": "project",
+      "path": "../Mango.Extensions/Mango.Extensions.csproj",
+      "msbuildProject": "../Mango.Extensions/Mango.Extensions.csproj"
+    },
+    "Mango.Utils/1.0.0": {
+      "type": "project",
+      "path": "../Mango.Utils/Mango.Utils.csproj",
+      "msbuildProject": "../Mango.Utils/Mango.Utils.csproj"
+    },
+    "Mango.WebServer/1.0.0": {
+      "type": "project",
+      "path": "../Mango.WebServer/Mango.WebServer.csproj",
+      "msbuildProject": "../Mango.WebServer/Mango.WebServer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Mango.Extensions >= 1.0.0",
+      "Mango.WebServer >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kunal\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\codes\\C#\\BasicWebServer\\ConsoleWebServer\\ConsoleWebServer.csproj",
+      "projectName": "ConsoleWebServer",
+      "projectPath": "D:\\codes\\C#\\BasicWebServer\\ConsoleWebServer\\ConsoleWebServer.csproj",
+      "packagesPath": "C:\\Users\\Kunal\\.nuget\\packages\\",
+      "outputPath": "D:\\codes\\C#\\BasicWebServer\\ConsoleWebServer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kunal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "D:\\codes\\C#\\BasicWebServer\\Mango.Extensions\\Mango.Extensions.csproj": {
+              "projectPath": "D:\\codes\\C#\\BasicWebServer\\Mango.Extensions\\Mango.Extensions.csproj"
+            },
+            "D:\\codes\\C#\\BasicWebServer\\Mango.WebServer\\Mango.WebServer.csproj": {
+              "projectPath": "D:\\codes\\C#\\BasicWebServer\\Mango.WebServer\\Mango.WebServer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Mango.Extensions does not provide an inclusive lower bound for dependency Microsoft.CSharp. Microsoft.CSharp 1.0.0 was resolved instead.",
+      "libraryId": "Microsoft.CSharp",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

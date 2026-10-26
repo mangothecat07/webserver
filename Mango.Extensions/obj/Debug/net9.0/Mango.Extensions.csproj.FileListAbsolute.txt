@@ -1,0 +1,10 @@
+D:\codes\C#\BasicWebServer\Mango.Extensions\bin\Debug\net9.0\Mango.Extensions.deps.json
+D:\codes\C#\BasicWebServer\Mango.Extensions\bin\Debug\net9.0\Mango.Extensions.dll
+D:\codes\C#\BasicWebServer\Mango.Extensions\bin\Debug\net9.0\Mango.Extensions.pdb
+D:\codes\C#\BasicWebServer\Mango.Extensions\obj\Debug\net9.0\Mango.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\C#\BasicWebServer\Mango.Extensions\obj\Debug\net9.0\Mango.Extensions.csproj.CoreCompileInputs.cache
+D:\codes\C#\BasicWebServer\Mango.Extensions\obj\Debug\net9.0\Mango.Extensions.dll
+D:\codes\C#\BasicWebServer\Mango.Extensions\obj\Debug\net9.0\refint\Mango.Extensions.dll
+D:\codes\C#\BasicWebServer\Mango.Extensions\obj\Debug\net9.0\Mango.Extensions.pdb
+D:\codes\C#\BasicWebServer\Mango.Extensions\obj\Debug\net9.0\ref\Mango.Extensions.dll
+D:\codes\C#\BasicWebServer\Mango.Extensions\obj\Debug\net9.0\Mango.Extensions.sourcelink.json

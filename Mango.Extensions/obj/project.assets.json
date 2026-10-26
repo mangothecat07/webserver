@@ -1,0 +1,111 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "Microsoft.CSharp/1.0.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CSharp/1.0.0": {
+      "sha512": "mSI7myFSA+U2D6ZupA8VRovFYgj8QRaRysT9VHBpUERFnR5qTsYXBvjqDHi6LTD2Ou4m2/ZovL4pqHQVyDHOyw==",
+      "type": "package",
+      "path": "microsoft.csharp/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Microsoft.CSharp.dll",
+        "Microsoft.CSharp.xml",
+        "NuGet.exe",
+        "microsoft.csharp.1.0.0.nupkg.sha512",
+        "microsoft.csharp.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "Microsoft.CSharp"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Kunal\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\codes\\C#\\BasicWebServer\\Mango.Extensions\\Mango.Extensions.csproj",
+      "projectName": "Mango.Extensions",
+      "projectPath": "D:\\codes\\C#\\BasicWebServer\\Mango.Extensions\\Mango.Extensions.csproj",
+      "packagesPath": "C:\\Users\\Kunal\\.nuget\\packages\\",
+      "outputPath": "D:\\codes\\C#\\BasicWebServer\\Mango.Extensions\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Kunal\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "Microsoft.CSharp": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.205/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1604",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Project dependency Microsoft.CSharp does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
+      "libraryId": "Microsoft.CSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v9.0"
+      ]
+    }
+  ]
+}

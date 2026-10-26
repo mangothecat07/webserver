@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mango.Extensions\Mango.Extensions.csproj" />
+    <ProjectReference Include="..\Mango.WebServer\Mango.WebServer.csproj" />
+
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Folder Include="Website\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Website\CSS\demo.css" />
+    <Content Include="Website\favicon.ico" />
+    <Content Include="Website\Pages\Demo\ajax.html" />
+    <Content Include="Website\Pages\Demo\buttonclick.html" />
+    <Content Include="Website\Pages\Demo\clicked.html" />
+    <Content Include="Website\Pages\Demo\login.html" />
+    <Content Include="Website\Pages\Demo\redirect.html" />
+    <Content Include="Website\Pages\ErrorPages\expiredSession.html" />
+    <Content Include="Website\Pages\ErrorPages\fileNotFound.html" />
+    <Content Include="Website\Pages\ErrorPages\serverError.html" />
+    <Content Include="Website\Pages\ErrorPages\unknownType.html" />
+    <Content Include="Website\Pages\ErrorPages\validationError.html" />
+    <Content Include="Website\Pages\index.html" />
+    <Content Include="Website\Pages\ErrorPages\notAuthorized.html" />
+    <Content Include="Website\Pages\ErrorPages\pageNotFound.html" />
+    <Content Include="Website\Scripts\jquery-1.11.2.min.js" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "pN7gSllKruI=",
+  "success": true,
+  "projectFilePath": "D:\\codes\\C#\\BasicWebServer\\Mango.WebServer\\Mango.WebServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kunal\\.nuget\\packages\\microsoft.csharp\\1.0.0\\microsoft.csharp.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1604",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Project dependency Microsoft.CSharp does not contain an inclusive lower bound. Include a lower bound in the dependency version to ensure consistent restore results.",
+      "libraryId": "Microsoft.CSharp",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v9.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "RjZgLG8tEu0=",
+  "success": true,
+  "projectFilePath": "D:\\codes\\C#\\BasicWebServer\\ConsoleWebServer\\ConsoleWebServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kunal\\.nuget\\packages\\microsoft.csharp\\1.0.0\\microsoft.csharp.1.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Mango.Extensions does not provide an inclusive lower bound for dependency Microsoft.CSharp. Microsoft.CSharp 1.0.0 was resolved instead.",
+      "libraryId": "Microsoft.CSharp",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    }
+  ]
+}

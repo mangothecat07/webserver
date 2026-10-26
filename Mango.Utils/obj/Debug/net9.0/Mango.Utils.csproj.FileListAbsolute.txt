@@ -1,0 +1,14 @@
+D:\codes\C#\BasicWebServer\Mango.Utils\bin\Debug\net9.0\Mango.Utils.deps.json
+D:\codes\C#\BasicWebServer\Mango.Utils\bin\Debug\net9.0\Mango.Utils.dll
+D:\codes\C#\BasicWebServer\Mango.Utils\bin\Debug\net9.0\Mango.Utils.pdb
+D:\codes\C#\BasicWebServer\Mango.Utils\bin\Debug\net9.0\Mango.Extensions.dll
+D:\codes\C#\BasicWebServer\Mango.Utils\bin\Debug\net9.0\Mango.Extensions.pdb
+D:\codes\C#\BasicWebServer\Mango.Utils\obj\Debug\net9.0\Mango.Utils.csproj.AssemblyReference.cache
+D:\codes\C#\BasicWebServer\Mango.Utils\obj\Debug\net9.0\Mango.Utils.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\C#\BasicWebServer\Mango.Utils\obj\Debug\net9.0\Mango.Utils.csproj.CoreCompileInputs.cache
+D:\codes\C#\BasicWebServer\Mango.Utils\obj\Debug\net9.0\Mango.Ut.0BEAE9EC.Up2Date
+D:\codes\C#\BasicWebServer\Mango.Utils\obj\Debug\net9.0\Mango.Utils.dll
+D:\codes\C#\BasicWebServer\Mango.Utils\obj\Debug\net9.0\refint\Mango.Utils.dll
+D:\codes\C#\BasicWebServer\Mango.Utils\obj\Debug\net9.0\Mango.Utils.pdb
+D:\codes\C#\BasicWebServer\Mango.Utils\obj\Debug\net9.0\ref\Mango.Utils.dll
+D:\codes\C#\BasicWebServer\Mango.Utils\obj\Debug\net9.0\Mango.Utils.sourcelink.json
